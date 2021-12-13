@@ -1,0 +1,53 @@
+/* .identifier3{
+ border: 1px solid rgb(19, 55, 153);
+} */
+.identifier3 .lettres{
+ max-width: 750px;
+ display: flex;
+ justify-content: center;
+ margin: auto;
+ margin-top: 50px;
+}
+
+
+
+.identifier3 .tours{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.identifier3 .tour{
+  border: 1px solid rgb(92, 92, 92);
+  display: inline-block;
+  text-align: center;
+  width: 50px;
+  margin: 3px;
+  border-radius: 2px;
+}
+.identifier3 .tour-0{
+    background-color: rgb(214, 214, 214);
+}
+.identifier3 .tour-ok{
+  background-color: rgb(0, 255, 0);
+}
+.identifier3 .tour-no{
+  background-color: rgb(247, 45, 45);
+}
+
+
+.identifier3 .resultat{
+  font-size: 100px;
+}
+.identifier3 .commencer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.identifier3 .commencer .btn, .identifier3 .fin .btn {
+  width: 300px !important;
+  margin: auto;
+}
+.identifier3 .coupe img{
+  width: 100px;
+  margin-top: 50px;
+}
